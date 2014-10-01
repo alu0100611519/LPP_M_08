@@ -1,1 +1,19 @@
 Trabajo en equipo con git
+
+
+
+Diferencia entre compilacion e interpretacion
+
+Compilador: 
+-Necesita traducir de un codigo fuente a un lenguaje objeto.
+-Genera un codigo ejecutable.
+-Más rápdio que el interprete.
+-Mayor dificultad al detectar errores.
+-Si hay un error se debe corregir y volver a compilar.
+
+
+Interprete:
+-Toma cada linea de código, la analiza y ejecuta al mismo tiempo
+-Más lento que un compilador ya que el interprete siempre está verificando el código
+-Ejecutan sus instrucciones sobre una máquina virtual interna.
+-Traduce el lenguaje máquina sin generar ningún objeto.
