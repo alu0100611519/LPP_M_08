@@ -1,1 +1,28 @@
 Trabajo en equipo con git
+
+
+
+1)Diferencia entre compilacion e interpretacion
+
+Compilador: 
+-Necesita traducir de un codigo fuente a un lenguaje objeto.
+-Genera un codigo ejecutable.
+-Más rápdio que el interprete.
+-Mayor dificultad al detectar errores.
+-Si hay un error se debe corregir y volver a compilar.
+
+
+Interprete:
+-Toma cada linea de código, la analiza y ejecuta al mismo tiempo
+-Más lento que un compilador ya que el interprete siempre está verificando el código
+-Ejecutan sus instrucciones sobre una máquina virtual interna.
+-Traduce el lenguaje máquina sin generar ningún objeto.
+
+
+2)¿Cual es la principal diferencia entre el contenido del fichero helloWorld.sh y HelloWorld.rb?
+el fichero .sh necesita la linea shebang para decirle a la shell que interprete de usar para el script 
+mientras que el .rb ya sabe que vas a invocar el interprete de ruby.
+La complejidad de la sintaxis por tanto es menor en el fichero .rb .
+¿Qué significado tiene la primera linea del fichero helloWorld.sh?
+Es la linea shebang que indica la ruta completa al interprete que va a utilizar el script para ser interpretado. permite al usuario 
+ejecutar un programa como si fuera un programa binario. 
